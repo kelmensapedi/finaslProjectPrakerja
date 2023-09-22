@@ -1,0 +1,35 @@
+. Menu yang wajib ada:
+    a. About / Tentang / Profil
+    b. Experiences / Pengalaman
+    c. Education / Riwayat Pendidikan
+    d. Skills / Keterampilan
+    e. Interests / Hobi / Minat
+    f. Award / Penghargaan
+    Catatan: Jika ada penambahan menu, disilakan, jika ke-6 menu di atas sudah terpenuhi;
+2. Silakan bebas pilih, mau hanya menggunakan 1 halaman saja (single page) atau multiple page.
+Jika single page:
+- index.html
+
+Jika multiple page:
+- index.html    ==> landing page
+- about.html
+- experieces.html
+- education.html
+- skills.html
+- interests.html
+- award.html
+
+3. Yang dikumpulkan:
+    a. Source code dalam format zip
+    b. Link / tautan Github Final Project
+    c. Link / tautan deployment Netlify ==> custom nama site / subdomain
+
+4. Batas Akhir / Deadline: Jum'at, 22 September 2023 pukul 23.59 WIB
+
+5. Tidak boleh menggunakan template
+
+6. Tidak boleh menggunakan CSS Framework / CSS Utility Class (tidak boleh pake bootstrap, material ui, tailwind, bulma)
+
+7. Boleh menggunakan icon-icon / font-icon
+
+8. Boleh menggunakan library / plugin javascript external

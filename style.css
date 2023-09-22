@@ -1,0 +1,401 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+body {
+  height: 100vw;
+}
+
+nav .nav {
+  background-color: salmon;
+  height: 40px;
+  right: 0;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+
+nav .nav img {
+  width: 100px;
+  margin-left: 10rem;
+}
+
+nav .nav ul {
+  display: flex;
+}
+
+nav .nav ul li {
+  list-style-type: none;
+  gap: 3rem;
+  margin: 0 3rem 0 0;
+}
+
+nav .nav ul li a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+/* start section header */
+section .header {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  background-color: #0f172a;
+}
+
+section .header .sidebar1 {
+  order: 2;
+  padding-right: 10rem;
+}
+
+section .header .sidebar1 > h1 {
+  font-size: 1.5rem;
+  color: #14b8a6;
+}
+
+section .header .sidebar1 h1 > span {
+  font-size: 3.5rem;
+  color: #fff;
+  font-style: italic;
+}
+
+section .header .sidebar1 h4,
+.p {
+  color: #64748b;
+}
+
+section .header .sidebar1 .button {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  padding: 0.3rem;
+  width: 8rem;
+  text-align: center;
+  cursor: pointer;
+  background-color: aqua;
+  border: 1px solid #fff;
+  border-radius: 5rem;
+}
+
+section .header .sidebar1 .button:hover {
+  background-color: rgba(0, 255, 255, 0.973);
+}
+
+section .header .sidebar1 .button:active {
+  background-color: rgba(3, 153, 153, 0.973);
+}
+section .header .sidebar1 .button a {
+  text-decoration: none;
+  font-weight: bold;
+}
+section .header .sidebar1 .button a:active {
+  color: #fff;
+}
+
+section .header .sidebar2 {
+  order: 1;
+}
+/* end section header */
+
+/* start section about */
+section #about {
+  padding-top: 4rem;
+  height: 100vh;
+  background-color: rgb(203 213 225);
+}
+
+section #about .abou {
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+section #about .container {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+section #about .container .aboutSidebar1 {
+  width: 50%;
+  padding-left: 5rem;
+}
+section #about .container .aboutSidebar2 img {
+  width: 50%;
+  border-radius: 50%;
+  width: 200px;
+}
+/* end section about */
+
+/* start education */
+section #education .container {
+  padding-top: 4rem;
+  height: 100vh;
+}
+
+section #education .container .pendidikan {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+section #education .container .school {
+  color: blue;
+}
+
+section #education .container .school {
+  padding-left: 10rem;
+}
+
+section #education .container .school .sd {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+section #education .container .school .sd .mulyaguna {
+  padding-right: 3rem;
+}
+
+section #education .container .school .sd .sdNegeri {
+  width: 70%;
+  color: #000;
+}
+
+section #education .container .school .smp {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+section #education .container .school .smp .pgri {
+  width: 110px;
+  padding-right: 3rem;
+}
+section #education .container .school .smp .smpPgri {
+  width: 70%;
+  color: #000;
+}
+section #education .container .school .sma {
+  align-items: center;
+  display: flex;
+}
+section #education .container .school .sma .smaNegeri {
+  width: 100px;
+  padding-right: 3rem;
+}
+section #education .container .school .sma .smaNegerii {
+  color: #000;
+  width: 70%;
+}
+
+/* end education */
+
+/* start experiences */
+section #experiences .container {
+  padding-top: 4rem;
+  height: 100vh;
+}
+
+section #experiences .container .pengalaman {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+section #experiences .container .pengalamanCard {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+section #experiences .container .pengalamanCard .card1 {
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 500px;
+  margin: 1rem;
+}
+section #experiences .container .pengalamanCard .card2 {
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 500px;
+  margin: 1rem;
+}
+section #experiences .container .pengalamanCard .card3 {
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 500px;
+  margin: 1rem;
+}
+
+section #experiences .container .pengalamanCard .card1 img {
+  width: 100%;
+}
+section #experiences .container .pengalamanCard .card2 img {
+  width: 100%;
+}
+section #experiences .container .pengalamanCard .card3 img {
+  width: 100%;
+}
+
+section #experiences .container .pengalamanCard .card1 p {
+  text-align: center;
+  padding: 1rem 0;
+}
+section #experiences .container .pengalamanCard .card2 p {
+  text-align: center;
+  padding: 1rem 0;
+}
+section #experiences .container .pengalamanCard .card3 p {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* end experiences */
+
+/* start skill */
+section #skills .container {
+  padding-top: 7rem;
+  height: 100vh;
+}
+
+section #skills .container .skill {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+section #skills .container .skillCard {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+section #skills .container .skillCard .skill1 {
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 400px;
+  margin: 1rem;
+}
+section #skills .container .skillCard .skill2 {
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 400px;
+  margin: 1rem;
+}
+section #skills .container .skillCard .skill3 {
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 400px;
+  margin: 1rem;
+}
+
+section #skills .container .skillCard .skill1 img {
+  width: 100%;
+}
+section #skills .container .skillCard .skill2 img {
+  width: 100%;
+}
+section #skills .container .skillCard .skill3 img {
+  width: 100%;
+}
+
+section #skills .container .skillCard .skill1 p {
+  text-align: center;
+  padding: 0.5rem 0;
+  cursor: pointer;
+  border: 1px solid black;
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #14b8a6;
+  color: #fff;
+  font-weight: bold;
+}
+section #skills .container .skillCard .skill2 p {
+  text-align: center;
+  padding: 0.5rem 0;
+  cursor: pointer;
+  border: 1px solid black;
+  width: 50%;
+  margin: auto;
+  border-radius: 15px;
+  background-color: #14b8a6;
+  color: #fff;
+  font-weight: bold;
+}
+section #skills .container .skillCard .skill3 p {
+  text-align: center;
+  padding: 0.5rem 0;
+  cursor: pointer;
+  border: 1px solid black;
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #14b8a6;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* end skill */
+
+/* start interests */
+section #interests .container {
+  padding-top: 4rem;
+  height: 100vh;
+}
+
+section #interests .container .hobi {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+section #interests .container .myHobi {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 5rem;
+}
+
+section #interests .container .myHobi .ceritaHobi {
+  width: 50%;
+  margin-left: -11rem;
+}
+/* end interests */
+
+/* start award */
+section #award .container {
+  padding-top: 4rem;
+  height: 100vh;
+}
+
+section #award .container .penghargaan {
+  text-align: center;
+}
+
+section #award .container .imgPenghargaan {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 4rem;
+}
+
+section #award .container .imgPenghargaan .img img {
+  width: 300px;
+  padding: 1rem 2rem;
+}
+/* end award */
+
+.footer {
+  background-color: #0f172a;
+  padding: 2rem 0;
+}
+
+.footer > p {
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+}
